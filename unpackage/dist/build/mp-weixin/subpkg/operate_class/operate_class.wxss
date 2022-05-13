@@ -1,0 +1,12 @@
+.btn{width:700rpx;background-color:#127ddb;color:#fff;border-radius:20px}.chose{background-color:#fff;padding:10px;margin:10px}.button-hover{background-color:rgba(17,124,217,.5)}.m_list{margin:15rpx;position:relative}.m_list .manage{display:flex;justify-content:space-between;padding:0 10px;background-color:#fff;height:40px;font-size:18px;text-align:end;line-height:40px}.m_list .item_com,
+.m_list .item_stu{display:flex;align-items:center;height:60px;background-color:#fff;padding:0 5px;border-bottom:1px solid #eee}.m_list .item_com .left,
+.m_list .item_stu .left{display:flex;align-items:center;font-size:18px}.m_list .item_com .left .avatar,
+.m_list .item_stu .left .avatar{width:40px;height:40px;margin-right:5px}.m_list .item_com .left .com,
+.m_list .item_stu .left .com{background-color:orange;width:30px;height:18px;font-size:12px;color:#fff;text-align:center}.m_list .item_com .left .stu,
+.m_list .item_stu .left .stu{background-color:#a7a7a7;width:30px;height:18px;font-size:12px;color:#fff;text-align:center}.m_list .item_com .left .name,
+.m_list .item_stu .left .name{margin-left:5px;color:#676767}.m_list .item_com .right,
+.m_list .item_stu .right{position:absolute;right:10px}.m_list .classify{height:30px;line-height:30px;font-size:15px;color:#666}.class_list{position:relative;height:100px;margin:10px;padding:10px;box-sizing:border-box;background-color:#fff;border:1px solid orange;border-radius:10px}.class_list .cname{font-size:20px;margin-bottom:20px;font-weight:700;color:#1050db}.class_list .cid{color:#666}.class_list .logo{position:absolute;width:45px;height:45px;right:17px;top:28px}.mange_stu_box{box-sizing:border-box;padding:10px;height:100%}.mange_stu_box .change{border-bottom:1px solid #ccc;color:#127ddb}.mange_stu_box .remove{color:#db3a19}.mange_stu_box .remove,
+.mange_stu_box .change{font-size:18px;text-align:center;height:50%;line-height:53px}.class_setting{box-sizing:border-box;height:100%;padding:10px;text-align:center}.class_setting .change_student_name,
+.class_setting .dissolve,
+.class_setting .change_class_name,
+.class_setting .exit{height:50px;border-bottom:1px solid #ccc;font-size:18px;line-height:50px}.class_setting .dissolve{color:#e27b30}.class_setting .exit{border:0;color:#db3a19}.change_name{height:100%;padding:10px}.change_name .new_name{height:40px;border:1px solid #666;padding-left:10px}.change_name .confirm{margin-top:10px;width:100px;background-color:#127ddb;color:#fff}

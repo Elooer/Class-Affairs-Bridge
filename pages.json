@@ -1,0 +1,82 @@
+{
+  "pages": [{
+    "path": "pages/class/class",
+    "style": {}
+
+  }, {
+    "path": "pages/todo/todo",
+    "style": {
+      "enablePullDownRefresh": true,
+      "backgroundColor": "#F8F8F8"
+    }
+
+  }, {
+    "path": "pages/my/my",
+    "style": {}
+
+  }],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+      "path": "operate_class/operate_class",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "user_info/user_info",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "publish/publish",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "login/login",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "班级Bridge",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationStyle": "custom",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [{
+        "pagePath": "pages/class/class",
+        "text": "班级",
+        "iconPath": "static/tab_icons/class.png",
+        "selectedIconPath": "static/tab_icons/class-active.png"
+      },
+      {
+        "pagePath": "pages/todo/todo",
+        "text": "待办",
+        "iconPath": "static/tab_icons/todo.png",
+        "selectedIconPath": "static/tab_icons/todo-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  }
+}

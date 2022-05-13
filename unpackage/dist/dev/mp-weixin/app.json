@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/class/class",
+    "pages/todo/todo",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "operate_class/operate_class",
+        "user_info/user_info",
+        "publish/publish",
+        "login/login"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "班级Bridge",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationStyle": "custom",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/class/class",
+        "text": "班级",
+        "iconPath": "static/tab_icons/class.png",
+        "selectedIconPath": "static/tab_icons/class-active.png"
+      },
+      {
+        "pagePath": "pages/todo/todo",
+        "text": "待办",
+        "iconPath": "static/tab_icons/todo.png",
+        "selectedIconPath": "static/tab_icons/todo-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

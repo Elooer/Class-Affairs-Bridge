@@ -1,0 +1,1 @@
+<view class="common" hover-class="press-style" hover-stay-time="100" data-event-opts="{{[['tap',[['btnHandler',['$event']]]]]}}" bindtap="__e"><image class="img" src="{{src}}"></image><text class="text">{{name}}</text></view>

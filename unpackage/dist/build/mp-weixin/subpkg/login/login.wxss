@@ -1,0 +1,1 @@
+.container{background-color:#fff}.container .swiper{height:60vh}.container .swiper .swiper_item{height:100%;width:100%}.container .swiper .swiper_item .swipter_img{height:90%;width:100%}.container .swiper .swiper_item .text{height:10%;text-align:center;font-size:25px;color:#058ce5}.container .btn{background-color:#007aff;color:#fff;border-radius:30px;margin:70px 20rpx}

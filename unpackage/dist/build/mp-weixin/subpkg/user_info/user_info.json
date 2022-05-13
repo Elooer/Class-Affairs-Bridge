@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "mpopup": "/components/xuan-popup/xuan-popup",
+    "wyb-popup": "/components/wyb-popup/wyb-popup"
+  }
+}
